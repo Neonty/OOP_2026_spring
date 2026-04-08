@@ -27,6 +27,7 @@ public class Staff extends Person {
         if (_school == null || _school.isBlank()) {
             throw new IllegalArgumentException("School cannot be empty");
         }
+
         this.school = _school;
     }
 
@@ -38,6 +39,7 @@ public class Staff extends Person {
         if (_pay < 0) {
             throw new IllegalArgumentException("Pay cannot be negative");
         }
+        
         this.pay = _pay;
     }
 

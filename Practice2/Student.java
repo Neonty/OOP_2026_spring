@@ -1,3 +1,5 @@
+package Practice2;
+
 public class Student
 {
     private static final int initialYear = 1;
